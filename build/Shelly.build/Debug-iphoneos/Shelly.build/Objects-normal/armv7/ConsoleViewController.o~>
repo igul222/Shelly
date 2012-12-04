@@ -1,0 +1,5 @@
+/Users/ishaan/Dropbox/Projects/Console/ConsoleViewController.m: In function '-[ConsoleViewController updateTerminalSize]':
+/Users/ishaan/Dropbox/Projects/Console/ConsoleViewController.m:165: warning: 'Server' may not respond to '-updateTerminalHeight:width:'
+/Users/ishaan/Dropbox/Projects/Console/ConsoleViewController.m:165: warning: (Messages without a matching method signature
+/Users/ishaan/Dropbox/Projects/Console/ConsoleViewController.m:165: warning: will be assumed to return 'id' and accept
+/Users/ishaan/Dropbox/Projects/Console/ConsoleViewController.m:165: warning: '...' as arguments.)

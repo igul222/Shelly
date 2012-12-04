@@ -1,0 +1,884 @@
+TShelly
+v7
+r0
+t298932283.755222
+cCheck dependencies
+cProcessInfoPlistFile "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Info.plist" Shelly-Info.plist
+cCompileXIB "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/MainWindow.xib"
+cCompileXIB "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleView.xib"
+cCpResource build/Debug-iphonesimulator/Shelly.app/libssh2_config.h.in include/libssh2_config.h.in
+cCpResource build/Debug-iphonesimulator/Shelly.app/AlertTextFieldBackground.png AlertTextFieldBackground.png
+cCpResource build/Debug-iphonesimulator/Shelly.app/Inconsolata.ttf Inconsolata.ttf
+cProcessPCH /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch.gch Shelly_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Console.momd" "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Console.xcdatamodeld"
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/main.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ConsoleAppDelegate.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Classes/ConsoleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ConsoleViewController.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ServersViewController.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ServersViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/NewServerForm.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NewServerForm.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGFormController.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGFormController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/NSString+IGExtensions.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NSString+IGExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGPopoverManager.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPopoverManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/Server.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Server.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/OBGradientView.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/OBGradientView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGPrettyButton.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPrettyButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/AQGlassButton.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/AQGlassButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/HostKeyAlert.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/HostKeyAlert.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/LoginAlert.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/LoginAlert.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Shelly" normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C1E69680000000000000110
+t1277061480
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004BD1CD580000000000125540
+t1272040792
+s1201472
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004BD1CD3500000000000004CF
+t1272040757
+s1231
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BD2002300000000001D2E00
+t1272053795
+s1912320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BD1FFED000000000000046B
+t1272053741
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004BD1D01E000000000000007D
+t1272041502
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004BD1D06900000000001294B0
+t1272041577
+s1217712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
+c000000004BD1CFC10000000000001A1A
+t1272041409
+s6682
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/arpa/inet.h
+c00000000464386D70000000000001533
+t1178830551
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/ctype.h
+c000000004748A1320000000000002C3A
+t1195942194
+s11322
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/errno.h
+c000000004748A13100000000000003EB
+t1195942193
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/fcntl.h
+c000000004748A13100000000000003EA
+t1195942193
+s1002
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/netinet/in.h
+c00000000476344B700000000000052AA
+t1197687991
+s21162
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/stdio.h
+c000000004748A1330000000000003D1D
+t1195942195
+s15645
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/string.h
+c000000004748A1330000000000001731
+t1195942195
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sys/socket.h
+c00000000476344C000000000000055F1
+t1197688000
+s22001
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sys/stat.h
+c00000000476344C000000000000047CE
+t1197688000
+s18382
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sys/types.h
+c00000000476344C1000000000000290F
+t1197688001
+s10511
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sys/uio.h
+c00000000476344C10000000000001130
+t1197688001
+s4400
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/unistd.h
+c000000004748A13300000000000053FF
+t1195942195
+s21503
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004748AF950000000000003197
+t1195945877
+s12695
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/lib/libz.dylib
+c00000000476CCCD10000000000006EE8
+t1198312657
+s28392
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/AQGlassButton.h
+c000000004A4A8FA8000000000000075B
+t1246400424
+s1883
+i<UIKit/UIKit.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/AQGlassButton.m
+c000000004A4A8FA80000000000001AB4
+t1246400424
+s6836
+i"AQGlassButton.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/AlertTextFieldBackground.png
+c000000004BF0688A000000000000029C
+t1274046602
+s668
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Classes/ConsoleAppDelegate.h
+c000000004BCB412E0000000000000376
+t1271611694
+s886
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Classes/ConsoleAppDelegate.m
+c000000004BCB41840000000000001265
+t1271611780
+s4709
+i"ConsoleAppDelegate.h"
+i"ConsoleViewController.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Console.xcdatamodeld
+c000000004BF01ABC0000000000000088
+t1274026684
+s136
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleView.xib
+c000000004BF2DD1100000000000060DE
+t1274207505
+s24798
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleViewController.h
+c000000004BF2F12300000000000002D6
+t1274212643
+s726
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleViewController.m
+c000000004BF2F693000000000000167B
+t1274214035
+s5755
+i"ConsoleViewController.h"
+i"Server.h"
+i"VT100TextView.h"
+i"ServersViewController.h"
+i"IGPopoverManager.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/HostKeyAlert.h
+c000000004BF09717000000000000024E
+t1274058519
+s590
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/HostKeyAlert.m
+c000000004BF097480000000000000865
+t1274058568
+s2149
+i"HostKeyAlert.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGFormController.h
+c000000004BD0E41A0000000000000370
+t1271981082
+s880
+i<UIKit/UIKit.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGFormController.m
+c000000004BD2011F0000000000001013
+t1272054047
+s4115
+i"IGFormController.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPopoverManager.h
+c000000004BB1931C00000000000002C3
+t1269928732
+s707
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPopoverManager.m
+c000000004BF001A90000000000000848
+t1274020265
+s2120
+i"IGPopoverManager.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPrettyButton.h
+c000000004BB3CFBB000000000000015E
+t1270075323
+s350
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPrettyButton.m
+c000000004BD326940000000000000CB7
+t1272129172
+s3255
+i"IGPrettyButton.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Inconsolata.ttf
+c0000000047568F1A000000000000574C
+t1196855066
+s22348
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/LoginAlert.h
+c000000004BF096500000000000000126
+t1274058320
+s294
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/LoginAlert.m
+c000000004BF0973C000000000000017C
+t1274058556
+s380
+i"LoginAlert.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/MainWindow.xib
+c000000004BCB3E470000000000003E6D
+t1271610951
+s15981
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NSString+IGExtensions.h
+c000000004BB8D94500000000000000FA
+t1270405445
+s250
+i<Foundation/Foundation.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NSString+IGExtensions.m
+c000000004BB8D97C000000000000017A
+t1270405500
+s378
+i"NSString+IGExtensions.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NewServerForm.h
+c000000004BD0EA670000000000000108
+t1271982695
+s264
+i<Foundation/Foundation.h>
+i"IGFormController.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NewServerForm.m
+c000000004BD10F750000000000000746
+t1271992181
+s1862
+i"NewServerForm.h"
+i"IGPopoverManager.h"
+i"NSString+IGExtensions.h"
+i"ConsoleAppDelegate.h"
+i<CoreData/CoreData.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/OBGradientView.h
+c000000004BCD71140000000000000A9A
+t1271755028
+s2714
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/OBGradientView.m
+c000000004BCD71140000000000000DCD
+t1271755028
+s3533
+i"OBGradientView.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Server.h
+c000000004BF2F6A600000000000002EA
+t1274214054
+s746
+i<Foundation/Foundation.h>
+i"libssh2.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Server.m
+c000000004BF2FB890000000000001DCD
+t1274215305
+s7629
+i"Server.h"
+i<CFNetwork/CFNetwork.h>
+i"HostKeyAlert.h"
+i"LoginAlert.h"
+i"libssh2_config.h"
+i"libssh2.h"
+i<sys/socket.h>
+i<netinet/in.h>
+i<unistd.h>
+i<arpa/inet.h>
+i<sys/types.h>
+i<fcntl.h>
+i<errno.h>
+i<stdio.h>
+i<ctype.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ServersViewController.h
+c000000004BD0EDAD0000000000000272
+t1271983533
+s626
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ServersViewController.m
+c000000004BD0EE2D0000000000001FDA
+t1271983661
+s8154
+i"ServersViewController.h"
+i"ConsoleAppDelegate.h"
+i"NewServerForm.h"
+i"ConsoleViewController.h"
+i"IGPopoverManager.h"
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Shelly_Prefix.pch
+c000000004BF007E9000000000000043A
+t1274021865
+s1082
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/VT100TextView.h
+c000000004BF2D6800000000000000803
+t1274205824
+s2051
+i<UIKit/UIKit.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app
+t2
+s0
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app.dSYM
+t2
+s0
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/AlertTextFieldBackground.png
+t1277239481
+s668
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Console.momd
+t1277239482
+s136
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/ConsoleView.nib
+t1277239481
+s2082
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Inconsolata.ttf
+t1277239481
+s22348
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Info.plist
+t1277239480
+s833
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/MainWindow.nib
+t1277239481
+s984
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/PkgInfo
+t1277239480
+s8
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Shelly
+t2
+s0
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/libssh2_config.h.in
+t1277239481
+s5828
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/AQGlassButton.o
+t1277239483
+s27188
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ConsoleAppDelegate.o
+t1277239482
+s57624
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ConsoleViewController.o
+t1277239482
+s72744
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/HostKeyAlert.o
+t1277239483
+s25160
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGFormController.o
+t1277239483
+s53252
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGPopoverManager.o
+t1277239483
+s40700
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGPrettyButton.o
+t1277239483
+s21804
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/LoginAlert.o
+t1277239483
+s7364
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/NSString+IGExtensions.o
+t1277239482
+s6856
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/NewServerForm.o
+t1277239482
+s50052
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/OBGradientView.o
+t1277239483
+s18412
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/Server.o
+t1277239483
+s33368
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ServersViewController.o
+t1277239482
+s71188
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/Shelly.LinkFileList
+c000000004C2120B8000000000000081B
+t1277239480
+s2075
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/main.o
+t1277239482
+s6340
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/include/libssh2.h
+c000000004BD35FCF000000000000AE15
+t1272143823
+s44565
+i<stddef.h>
+i<string.h>
+i<sys/stat.h>
+i<sys/types.h>
+i<sys/uio.h>
+i<sys/bsdskt.h>
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/include/libssh2_config.h
+c000000004BD35FB9000000000000191A
+t1272143801
+s6426
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/include/libssh2_config.h.in
+c000000004AE8ACFE00000000000016C4
+t1256762622
+s5828
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libVT100.a
+c000000004BF2EFB9000000000003AE10
+t1274212281
+s241168
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libgcrypt.a
+c000000004BD35F4B00000000001120D8
+t1272143691
+s1122520
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libgpg-error.a
+c000000004BD35E6E0000000000003628
+t1272143470
+s13864
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libssh2.a
+c000000004BD35FCC0000000000042130
+t1272143820
+s270640
+
+N/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/main.m
+c000000004BCB3E47000000000000016D
+t1271610951
+s365
+i<UIKit/UIKit.h>
+
+N/usr/lib/libcurses.dylib
+c000000004B05F8C500000000000D0990
+t1258682565
+s854416
+
+N/var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch.gch
+t1277239482
+s14670512
+
+NShelly-Info.plist
+c000000004BF1D57500000000000004F7
+t1274140021
+s1271
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies298932280#298932280#0(0"0(0#1#0"8664253376#0"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/AQGlassButton.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/AQGlassButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932283.318093
+e298932283.458813
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/AQGlassButton.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/AQGlassButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/AQGlassButton.m298932283#298932283#0(0"0(0#0#72"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/AQGlassButton.m8631951808#2129"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/AQGlassButton.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/AQGlassButton.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ConsoleAppDelegate.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Classes/ConsoleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932282.529245
+e298932282.636145
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ConsoleAppDelegate.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Classes/ConsoleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Classes/ConsoleAppDelegate.m298932282#298932282#0(0"0(0#0#85"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Classes/ConsoleAppDelegate.m8615181472#2147"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Classes/ConsoleAppDelegate.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ConsoleAppDelegate.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ConsoleViewController.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932282.607436
+e298932282.846205
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ConsoleViewController.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleViewController.m298932282#298932282#0(0"0(0#0#80"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleViewController.m8677610016#2145"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleViewController.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ConsoleViewController.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/HostKeyAlert.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/HostKeyAlert.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932283.392953
+e298932283.475641
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/HostKeyAlert.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/HostKeyAlert.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/HostKeyAlert.m298932283#298932283#0(0"0(0#0#71"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/HostKeyAlert.m8677510272#2127"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/HostKeyAlert.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/HostKeyAlert.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGFormController.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGFormController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932282.846325
+e298932283.028227
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGFormController.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGFormController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGFormController.m298932282#298932283#0(0"0(0#0#75"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGFormController.m8645572992#2135"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGFormController.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGFormController.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGPopoverManager.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPopoverManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932282.965786
+e298932283.087939
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGPopoverManager.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPopoverManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPopoverManager.m298932282#298932283#0(0"0(0#0#75"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPopoverManager.m8677569696#2135"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPopoverManager.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGPopoverManager.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGPrettyButton.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPrettyButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932283.248104
+e298932283.392699
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGPrettyButton.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPrettyButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPrettyButton.m298932283#298932283#0(0"0(0#0#73"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPrettyButton.m8641681408#2131"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/IGPrettyButton.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/IGPrettyButton.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/LoginAlert.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/LoginAlert.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932283.458916
+e298932283.508948
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/LoginAlert.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/LoginAlert.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/LoginAlert.m298932283#298932283#0(0"0(0#0#69"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/LoginAlert.m8670556480#2123"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/LoginAlert.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/LoginAlert.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/NSString+IGExtensions.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NSString+IGExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932282.906478
+e298932282.965690
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/NSString+IGExtensions.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NSString+IGExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NSString+IGExtensions.m298932282#298932283#0(0"0(0#0#80"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NSString+IGExtensions.m8641460256#2145"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NSString+IGExtensions.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/NSString+IGExtensions.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/NewServerForm.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NewServerForm.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932282.793695
+e298932282.906385
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/NewServerForm.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NewServerForm.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NewServerForm.m298932282#298932282#0(0"0(0#0#72"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NewServerForm.m8659140416#2129"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/NewServerForm.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/NewServerForm.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/OBGradientView.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/OBGradientView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932283.088029
+e298932283.247844
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/OBGradientView.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/OBGradientView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/OBGradientView.m298932283#298932283#0(0"0(0#0#73"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/OBGradientView.m8658062048#2131"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/OBGradientView.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/OBGradientView.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/Server.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Server.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932283.028319
+e298932283.317989
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/Server.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Server.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Server.m298932283#298932283#0(0"0(0#0#65"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Server.m8671688288#2115"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Server.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/Server.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ServersViewController.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ServersViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932282.636242
+e298932282.793609
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ServersViewController.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ServersViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ServersViewController.m298932282#298932282#0(0"0(0#0#80"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ServersViewController.m8672598336#2145"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ServersViewController.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/ServersViewController.o"0#
+
+CCompileC build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/main.o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932282.471448
+e298932282.529149
+r1
+xCompileC
+xbuild/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/main.o
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/main.m298932282#298932282#0(0"0(0#0#63"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/main.m8629659840#2111"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -include /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/main.m" -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleView.xib"
+s298932280.857723
+e298932281.663278
+r1
+xCompileXIB
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleView.xib
+lSLF07#2@26"CompileXIB ConsoleView.xib298932280#298932281#0(0"0(0#0#72"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleView.xib8650216512#631"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/ConsoleView.nib" "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/ConsoleView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/MainWindow.xib"
+s298932280.831278
+e298932281.509491
+r1
+xCompileXIB
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib298932280#298932281#0(0"0(0#0#71"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/MainWindow.xib8678407776#629"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/MainWindow.nib" "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Shelly.app/AlertTextFieldBackground.png AlertTextFieldBackground.png
+s298932281.517563
+e298932281.569108
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Shelly.app/AlertTextFieldBackground.png
+xAlertTextFieldBackground.png
+lSLF07#2@33"Copy AlertTextFieldBackground.png298932281#298932281#0(0"0(0#0#85"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/AlertTextFieldBackground.png8662417120#531"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/AlertTextFieldBackground.png" "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app"0#
+
+CCpResource build/Debug-iphonesimulator/Shelly.app/Inconsolata.ttf Inconsolata.ttf
+s298932281.519579
+e298932281.560810
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Shelly.app/Inconsolata.ttf
+xInconsolata.ttf
+lSLF07#2@20"Copy Inconsolata.ttf298932281#298932281#0(0"0(0#0#72"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Inconsolata.ttf8661545152#518"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Inconsolata.ttf" "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app"0#
+
+CCpResource build/Debug-iphonesimulator/Shelly.app/libssh2_config.h.in include/libssh2_config.h.in
+s298932281.509608
+e298932281.551326
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Shelly.app/libssh2_config.h.in
+xinclude/libssh2_config.h.in
+lSLF07#2@32"Copy include/libssh2_config.h.in298932281#298932281#0(0"0(0#0#84"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/include/libssh2_config.h.in8668934304#530"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/include/libssh2_config.h.in" "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app"0#
+
+CDataModelVersionCompile "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Console.momd" "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Console.xcdatamodeld"
+s298932282.470352
+e298932282.607347
+r1
+xDataModelVersionCompile
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Console.momd
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Console.xcdatamodeld
+lSLF07#2@96"DataModelVersionCompile build/Debug-iphonesimulator/Shelly.app/Console.momd Console.xcdatamodeld298932282#298932282#0(0"0(0#0#77"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Console.xcdatamodeld8661072352#445"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Console.xcdatamodeld" "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Console.momd"0#
+
+CGenerateDSYMFile "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app.dSYM" "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Shelly"
+r0
+
+CLd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Shelly" normal i386
+s298932283.509038
+e298932283.755155
+r0
+xLd
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Shelly
+xnormal
+xi386
+old: warning: in /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libgcrypt.a, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libgpg-error.a, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libssh2.a, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libVT100.a, file was built for unsupported file format which is not the architecture being linked (i386)
+oUndefined symbols:
+o  "_libssh2_channel_free", referenced from:
+o      -[Server disconnect:] in Server.o
+o  "_libssh2_userauth_list", referenced from:
+o      -[Server connect] in Server.o
+o  "_libssh2_session_free", referenced from:
+o      -[Server closeSessionAndSocket:] in Server.o
+o  "_libssh2_hostkey_hash", referenced from:
+o      -[Server connect] in Server.o
+o  "_libssh2_channel_open_ex", referenced from:
+o      -[Server connect] in Server.o
+o  "_libssh2_session_startup", referenced from:
+o      -[Server connect] in Server.o
+o  "_libssh2_session_disconnect_ex", referenced from:
+o      -[Server closeSessionAndSocket:] in Server.o
+o  "_OBJC_CLASS_$_VT100TextView", referenced from:
+o      objc-class-ref-to-VT100TextView in ConsoleViewController.o
+o  "_libssh2_userauth_password_ex", referenced from:
+o      -[Server connect] in Server.o
+o  "_libssh2_channel_set_blocking", referenced from:
+o      -[Server readFromStream] in Server.o
+o      -[Server readFromStream] in Server.o
+o      -[Server writeToStream:] in Server.o
+o      -[Server writeToStream:] in Server.o
+o  "_libssh2_exit", referenced from:
+o      -[Server closeSessionAndSocket:] in Server.o
+o  "_libssh2_channel_process_startup", referenced from:
+o      -[Server connect] in Server.o
+o  "_libssh2_channel_request_pty_ex", referenced from:
+o      -[Server connect] in Server.o
+o  "_libssh2_channel_request_pty_size_ex", referenced from:
+o      -[Server updateTerminalHeight:width:] in Server.o
+o  "_libssh2_init", referenced from:
+o      -[Server connect] in Server.o
+o  "_libssh2_channel_close", referenced from:
+o      -[Server disconnect:] in Server.o
+o  "_libssh2_channel_write_ex", referenced from:
+o      -[Server writeToStream:] in Server.o
+o  "_libssh2_session_init_ex", referenced from:
+o      -[Server connect] in Server.o
+o  "_libssh2_channel_read_ex", referenced from:
+o      -[Server readFromStream] in Server.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@107"Link /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Shelly298932283#298932283#0(2636"ld: warning: in /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libgcrypt.a, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libgpg-error.a, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libssh2.a, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libVT100.a, file was built for unsupported file format which is not the architecture being linked (i386)Undefined symbols:  "_libssh2_channel_free", referenced from:      -[Server disconnect:] in Server.o  "_libssh2_userauth_list", referenced from:      -[Server connect] in Server.o  "_libssh2_session_free", referenced from:      -[Server closeSessionAndSocket:] in Server.o  "_libssh2_hostkey_hash", referenced from:      -[Server connect] in Server.o  "_libssh2_channel_open_ex", referenced from:      -[Server connect] in Server.o  "_libssh2_session_startup", referenced from:      -[Server connect] in Server.o  "_libssh2_session_disconnect_ex", referenced from:      -[Server closeSessionAndSocket:] in Server.o  "_OBJC_CLASS_$_VT100TextView", referenced from:      objc-class-ref-to-VT100TextView in ConsoleViewController.o  "_libssh2_userauth_password_ex", referenced from:      -[Server connect] in Server.o  "_libssh2_channel_set_blocking", referenced from:      -[Server readFromStream] in Server.o      -[Server readFromStream] in Server.o      -[Server writeToStream:] in Server.o      -[Server writeToStream:] in Server.o  "_libssh2_exit", referenced from:      -[Server closeSessionAndSocket:] in Server.o  "_libssh2_channel_process_startup", referenced from:      -[Server connect] in Server.o  "_libssh2_channel_request_pty_ex", referenced from:      -[Server connect] in Server.o  "_libssh2_channel_request_pty_size_ex", referenced from:      -[Server updateTerminalHeight:width:] in Server.o  "_libssh2_init", referenced from:      -[Server connect] in Server.o  "_libssh2_channel_close", referenced from:      -[Server disconnect:] in Server.o  "_libssh2_channel_write_ex", referenced from:      -[Server writeToStream:] in Server.o  "_libssh2_session_init_ex", referenced from:      -[Server connect] in Server.o  "_libssh2_channel_read_ex", referenced from:      -[Server readFromStream] in Server.old: symbol(s) not foundcollect2: ld returned 1 exit status47(22@165"In /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libgcrypt.a, file was built for unsupported file format which is not the architecture being linked (i386)298932283#0#179#0(6@0"298932283#0#0#0#0#0"0(22@168"In /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libgpg-error.a, file was built for unsupported file format which is not the architecture being linked (i386)298932283#179#182#0(6@0"298932283#0#0#0#0#0"0(22@163"In /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libssh2.a, file was built for unsupported file format which is not the architecture being linked (i386)298932283#361#177#0(6@0"298932283#0#0#0#0#0"0(22@164"In /Users/ishaan/Dropbox/Projects/Inactive Projects/Console/libVT100.a, file was built for unsupported file format which is not the architecture being linked (i386)298932283#538#178#0(6@0"298932283#0#0#0#0#0"0(4@41""_libssh2_channel_free", referenced from:298932283#735#44#0(6@0"298932283#0#0#0#0#0"0(13@33"-[Server disconnect:] in Server.o298932283#779#40#0(6@0"298932283#0#0#0#0#0"0(4@42""_libssh2_userauth_list", referenced from:298932283#819#45#0(6@0"298932283#0#0#0#0#0"0(13@29"-[Server connect] in Server.o298932283#864#36#0(6@0"298932283#0#0#0#0#0"0(4@41""_libssh2_session_free", referenced from:298932283#900#44#0(6@0"298932283#0#0#0#0#0"0(13@44"-[Server closeSessionAndSocket:] in Server.o298932283#944#51#0(6@0"298932283#0#0#0#0#0"0(4@41""_libssh2_hostkey_hash", referenced from:298932283#995#44#0(6@0"298932283#0#0#0#0#0"0(13@29"-[Server connect] in Server.o298932283#1039#36#0(6@0"298932283#0#0#0#0#0"0(4@44""_libssh2_channel_open_ex", referenced from:298932283#1075#47#0(6@0"298932283#0#0#0#0#0"0(13@29"-[Server connect] in Server.o298932283#1122#36#0(6@0"298932283#0#0#0#0#0"0(4@44""_libssh2_session_startup", referenced from:298932283#1158#47#0(6@0"298932283#0#0#0#0#0"0(13@29"-[Server connect] in Server.o298932283#1205#36#0(6@0"298932283#0#0#0#0#0"0(4@50""_libssh2_session_disconnect_ex", referenced from:298932283#1241#53#0(6@0"298932283#0#0#0#0#0"0(13@44"-[Server closeSessionAndSocket:] in Server.o298932283#1294#51#0(6@0"298932283#0#0#0#0#0"0(4@47""_OBJC_CLASS_$_VT100TextView", referenced from:298932283#1345#50#0(6@0"298932283#0#0#0#0#0"0(13@58"Objc-class-ref-to-VT100TextView in ConsoleViewController.o298932283#1395#65#0(6@0"298932283#0#0#0#0#0"0(4@49""_libssh2_userauth_password_ex", referenced from:298932283#1460#52#0(6@0"298932283#0#0#0#0#0"0(13@29"-[Server connect] in Server.o298932283#1512#36#0(6@0"298932283#0#0#0#0#0"0(4@49""_libssh2_channel_set_blocking", referenced from:298932283#1548#52#0(6@0"298932283#0#0#0#0#0"0(13@36"-[Server readFromStream] in Server.o298932283#1600#43#0(6@0"298932283#0#0#0#0#0"0(13@36"-[Server readFromStream] in Server.o298932283#1643#43#0(6@0"298932283#0#0#0#0#0"0(13@36"-[Server writeToStream:] in Server.o298932283#1686#43#0(6@0"298932283#0#0#0#0#0"0(13@36"-[Server writeToStream:] in Server.o298932283#1729#43#0(6@0"298932283#0#0#0#0#0"0(4@33""_libssh2_exit", referenced from:298932283#1772#36#0(6@0"298932283#0#0#0#0#0"0(13@44"-[Server closeSessionAndSocket:] in Server.o298932283#1808#51#0(6@0"298932283#0#0#0#0#0"0(4@52""_libssh2_channel_process_startup", referenced from:298932283#1859#55#0(6@0"298932283#0#0#0#0#0"0(13@29"-[Server connect] in Server.o298932283#1914#36#0(6@0"298932283#0#0#0#0#0"0(4@51""_libssh2_channel_request_pty_ex", referenced from:298932283#1950#54#0(6@0"298932283#0#0#0#0#0"0(13@29"-[Server connect] in Server.o298932283#2004#36#0(6@0"298932283#0#0#0#0#0"0(4@56""_libssh2_channel_request_pty_size_ex", referenced from:298932283#2040#59#0(6@0"298932283#0#0#0#0#0"0(13@49"-[Server updateTerminalHeight:width:] in Server.o298932283#2099#56#0(6@0"298932283#0#0#0#0#0"0(4@33""_libssh2_init", referenced from:298932283#2155#36#0(6@0"298932283#0#0#0#0#0"0(13@29"-[Server connect] in Server.o298932283#2191#36#0(6@0"298932283#0#0#0#0#0"0(4@42""_libssh2_channel_close", referenced from:298932283#2227#45#0(6@0"298932283#0#0#0#0#0"0(13@33"-[Server disconnect:] in Server.o298932283#2272#40#0(6@0"298932283#0#0#0#0#0"0(4@45""_libssh2_channel_write_ex", referenced from:298932283#2312#48#0(6@0"298932283#0#0#0#0#0"0(13@36"-[Server writeToStream:] in Server.o298932283#2360#43#0(6@0"298932283#0#0#0#0#0"0(4@44""_libssh2_session_init_ex", referenced from:298932283#2403#47#0(6@0"298932283#0#0#0#0#0"0(13@29"-[Server connect] in Server.o298932283#2450#36#0(6@0"298932283#0#0#0#0#0"0(4@44""_libssh2_channel_read_ex", referenced from:298932283#2486#47#0(6@0"298932283#0#0#0#0#0"0(13@36"-[Server readFromStream] in Server.o298932283#2533#43#0(6@0"298932283#0#0#0#0#0"0(13@19"Symbol(s) not found298932283#2576#24#0(6@0"298932283#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status298932283#2600#36#0(6@0"298932283#0#0#0#0#0"0(0#0#0"8660758016#1168"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk "-L/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-L/Users/ishaan/Dropbox/Projects/Inactive Projects/Console" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" -filelist "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Objects-normal/i386/Shelly.LinkFileList" -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -lgcrypt -lgpg-error -lssh2 -framework CFNetwork -lz -lcurses -lVT100 -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Shelly"1#
+
+CProcessInfoPlistFile "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Info.plist" Shelly-Info.plist
+s298932280.731565
+e298932280.831192
+r1
+xProcessInfoPlistFile
+x/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Info.plist
+xShelly-Info.plist
+lSLF07#2@25"Process Shelly-Info.plist298932280#298932280#0(0"0(0#0#74"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Shelly-Info.plist8668840000#536"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Shelly-Info.plist -genpkginfo "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app/Info.plist"0#
+
+CProcessPCH /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch.gch Shelly_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s298932281.663385
+e298932282.470115
+r1
+xProcessPCH
+x/var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch.gch
+xShelly_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Shelly_Prefix.pch298932281#298932282#0(0"0(0#0#74"/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Shelly_Prefix.pch8659192384#1984"    cd "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-generated-files.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-own-target-headers.hmap" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-all-target-headers.hmap" -iquote "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/Shelly-project-headers.hmap" "-F/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/include" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources/i386" "-I/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Shelly.build/Debug-iphonesimulator/Shelly.build/DerivedSources" -c "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/Shelly_Prefix.pch" -o /var/folders/ZF/ZFpbaw8gHK4FY7jyqs3OGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shelly_Prefix-czaevjtracacfecufugohtjvanal/Shelly_Prefix.pch.gch0#
+
+CTouch "/Users/ishaan/Dropbox/Projects/Inactive Projects/Console/build/Debug-iphonesimulator/Shelly.app"
+r0
+
